@@ -42,21 +42,35 @@ void GenerirajPolje(int polje[], int n) {
 	
 	for(int i=0; i<n; i++)
 		polje[i] = rand()%1000;
+    
+    cout << "Elementi generirani!" << endl;
 }
 void Test(void (*Sort)(int[], int), int n) {
+    int* polje = new int[n];
+	
 	cout << endl;
 	
-	int* polje = new int[n];
+	time_t vrijeme_kraja;
+    time_t vrijeme_pocetka = time(0);
+    
+    cout << "pocetak testa u: " << ctime(&vrijeme_pocetka) << endl;
 	
 	GenerirajPolje(polje, n);
 //	IspisiPolje(polje, n);
 	
+	cout << "Pocelo sortiranje polja sa " << n << " elemenata..." << endl;
 	Sort(polje, n);
 //	IspisiPolje(polje, n);
+	cout << "Sortiranje zavrsilo!" << endl;
 	
-	cout << "Provjera...";
-	if(Provjeri(polje, n) ) cout << " ok!\n";
-	else cout << " pogreska!\n";
+	cout << "Provjera ispravnosti sortiranja..." << endl;
+	cout << (Provjeri(polje, n) ? "Ispravno sortirano!" : "Pogreska kod sortiranja!") << endl;
+	
+	vrijeme_kraja = time(0);
+	
+	cout << endl;
+	cout << "kraj testa u: " << ctime(&vrijeme_kraja) << endl;
+	cout << "vrijeme testa: " << difftime(vrijeme_kraja, vrijeme_pocetka) << endl;
 	
 	delete[] polje;
 }
@@ -138,6 +152,7 @@ void ExcSort(int polje[], int n) {
 
 // mjehuricasto sortiranje
 void BubbleSort(int polje[], int n) {
+    bool zam = true;
 	for(int i=n-1; i>0 && zam; i--) {
 		zam = false;
 		for(int j=0; j<i; j++)
