@@ -77,4 +77,45 @@
   Izlaz: U polju dimenzije N sortirati riječi algoritmom mjehuričastog 
   sortiranja.
 
+* Zadatak [15052515001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515001.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni brojevi N i I te N cijelih brojeva.
+  Izlaz: Napraviti funkciju za sortiranje polja riječi metodom sortiranja 
+  umetanjem i funkciju za određivanje I-tog najvećeg broja u nizu. 
+  Ispisati I-ti najveći broj u nizu.
+
+* Zadatak [15052515002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515002.cpp)
+  
+  Opis zadatka:
+  Napravite program za sljedeći problem:
+  
+  Ulaz: Prirodni broj N<20. Unos ponavljati sve dok nije ispravan. Nakon toga 
+  unijeti N riječi od kojih svaka može imati po 19 znakova.
+  Izlaz: Napraviti funkciju koja ispisuje i-tu riječ velikim slovima. 
+  Ispisati sve riječi velikim slovima. Polje deklarirati globalno.
+
+* Zadatak [15052515003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515003.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N i N riječi.
+  Izlaz: Napraviti funkciju za sortiranje riječi metodom sortiranja 
+  zamjenom. Ispisati riječi sortirane. Polje riječi deklarirati 
+  globalno.
+
+* Zadatak [15052515004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515004.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N<20. Unos ponavljati sve dok nije ispravan. Nakon toga 
+  unijeti N riječi od kojih svaka može imati po 19 znakova.
+  Izlaz: Napraviti funkciju koja slova i-te riječi sortira metodom sortiranja 
+  zamjenom. Ispisati slova svih riječi sortirano. Polje riječi 
+  deklarirati globalno.
+
 
