@@ -1,7 +1,8 @@
 # zadaci sa laboratorijskih vježbi 2014./2015.
 
 ## Popis zadataka:
-* [15051108002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051108002.cpp)
+* Zadatak [15051108002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051108002.cpp)
+  
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
   
