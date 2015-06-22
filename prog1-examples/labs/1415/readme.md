@@ -27,7 +27,7 @@
   da se s skladišta uzme više proizvoda no što ih ima.
   Izlaz: Ispisati artikle i njihove količine ostale na skladištu.
 
-* Zadataka [15051115004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115004.cpp)
+* Zadatak [15051115004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115004.cpp)
 
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -37,4 +37,16 @@
   Stringovi predstavljaju nazive automobila, prirodni broj maksimalnu 
   brzinu i potrošnju.
   Izlaz: Ispisati imena automobila silaznopo omjeru brzine i potrošnje.
+
+* Zadatak [15051308001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051308001.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N. Unos treba ponavljati sve dok nije ispravan. N unosa 
+  koji se sastoje od stringa i dva decimalna broja. String je ime 
+  točaka, a brojevi njihove koordinate.
+  Izlaz: Parovi točaka definiraju pravokutnike sa stranicama paralelnim s 
+  koordinatnim osima. Ispisati parove imena točaka koje čine 
+  pravokutnike sortirane po površini od najvećedo najmanje.
 
