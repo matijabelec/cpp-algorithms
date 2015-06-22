@@ -50,3 +50,22 @@
   koordinatnim osima. Ispisati parove imena točaka koje čine 
   pravokutnike sortirane po površini od najvećedo najmanje.
 
+* Zadatak [15051815001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815001.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N i N decimalnih brojeva.
+  Izlaz: U polju dimenzije N sortirati silazno brojeve algoritmom sortiranja 
+  umetanjem.
+
+* Zadatak [15051815004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815004.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N i N decimalnih brojeva.
+  Izlaz: U polju dimenzije N sortirati brojeve algoritmom mjehuricastog 
+  sortiranja.
+
+
