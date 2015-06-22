@@ -1,7 +1,7 @@
 # zadaci sa laboratorijskih vježbi 2014./2015.
 
 ## Popis zadataka:
-* Zadatak [15051108002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051108002.cpp)
+1. Zadatak [15051108002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051108002.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -14,7 +14,7 @@
   procesora, količinu memorije i količinu grafičke memorije na računalu.
   Izlaz: Ispisati sve programe koji se mogu izvoditi na tom računalu.
 
-* Zadatak [15051115003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115003.cpp)
+2. Zadatak [15051115003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115003.cpp)
 
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -27,7 +27,7 @@
   da se s skladišta uzme više proizvoda no što ih ima.
   Izlaz: Ispisati artikle i njihove količine ostale na skladištu.
 
-* Zadatak [15051115004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115004.cpp)
+3. Zadatak [15051115004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051115004.cpp)
 
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -38,7 +38,7 @@
   brzinu i potrošnju.
   Izlaz: Ispisati imena automobila silaznopo omjeru brzine i potrošnje.
 
-* Zadatak [15051308001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051308001.cpp)
+4. Zadatak [15051308001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051308001.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -50,7 +50,7 @@
   koordinatnim osima. Ispisati parove imena točaka koje čine 
   pravokutnike sortirane po površini od najvećedo najmanje.
 
-* Zadatak [15051815001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815001.cpp)
+5. Zadatak [15051815001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815001.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -59,7 +59,7 @@
   Izlaz: U polju dimenzije N sortirati silazno brojeve algoritmom sortiranja 
   umetanjem.
 
-* Zadatak [15051815004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815004.cpp)
+6. Zadatak [15051815004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051815004.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -68,7 +68,7 @@
   Izlaz: U polju dimenzije N sortirati brojeve algoritmom mjehuricastog 
   sortiranja.
 
-* Zadatak [15051816302](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051816302.cpp)
+7. Zadatak [15051816302](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051816302.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -77,7 +77,7 @@
   Izlaz: U polju dimenzije N sortirati riječi algoritmom mjehuričastog 
   sortiranja.
 
-* Zadatak [15052515001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515001.cpp)
+8. Zadatak [15052515001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515001.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -87,7 +87,7 @@
   umetanjem i funkciju za određivanje I-tog najvećeg broja u nizu. 
   Ispisati I-ti najveći broj u nizu.
 
-* Zadatak [15052515002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515002.cpp)
+9. Zadatak [15052515002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515002.cpp)
   
   Opis zadatka:
   Napravite program za sljedeći problem:
@@ -97,7 +97,7 @@
   Izlaz: Napraviti funkciju koja ispisuje i-tu riječ velikim slovima. 
   Ispisati sve riječi velikim slovima. Polje deklarirati globalno.
 
-* Zadatak [15052515003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515003.cpp)
+10. Zadatak [15052515003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515003.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -107,7 +107,7 @@
   zamjenom. Ispisati riječi sortirane. Polje riječi deklarirati 
   globalno.
 
-* Zadatak [15052515004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515004.cpp)
+11. Zadatak [15052515004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052515004.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -118,7 +118,7 @@
   zamjenom. Ispisati slova svih riječi sortirano. Polje riječi 
   deklarirati globalno.
 
-* Zadatak [15052008001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008001.cpp)
+12. Zadatak [15052008001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008001.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
@@ -129,7 +129,7 @@
   Ispisati prvo neparne brojeve sortirano uzlazno, a nakon toga parne 
   sortirane silazno.
 
-* Zadatak [15052008002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008002.cpp)
+13. Zadatak [15052008002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008002.cpp)
   
   Opis zadatka:
   Napravite program koji rješava sljedeći problem:
