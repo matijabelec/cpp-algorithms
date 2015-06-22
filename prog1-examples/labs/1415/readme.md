@@ -93,7 +93,7 @@
   Napravite program za sljedeći problem:
   
   Ulaz: Prirodni broj N<20. Unos ponavljati sve dok nije ispravan. Nakon toga 
-  unijeti N riječi od kojih svaka može imati po 19 znakova.
+  unijeti N riječi od kojih svaka može imati po 19 znakova. 
   Izlaz: Napraviti funkciju koja ispisuje i-tu riječ velikim slovima. 
   Ispisati sve riječi velikim slovima. Polje deklarirati globalno.
 
