@@ -118,4 +118,25 @@
   zamjenom. Ispisati slova svih riječi sortirano. Polje riječi 
   deklarirati globalno.
 
+* Zadatak [15052008001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008001.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni brojevi dok se ne unese 0.
+  Izlaz: Napraviti dvije liste. U prvu unositi neparne brojeve tako d budu 
+  sortirani uzlazno, a u drugu parne tako da budu sortirani silazno. 
+  Ispisati prvo neparne brojeve sortirano uzlazno, a nakon toga parne 
+  sortirane silazno.
+
+* Zadatak [15052008002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15052008002.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni brojevi dok se ne unese 0.
+  Izlaz: Napraviti dvije liste. U prvu unositi neparne brojeve tako d budu 
+  sortirani silazno, a u drugu parne tako da budu sortirani uzlazno. 
+  Ispisati prvo neparne brojeve sortirano silazno, a nakon toga parne 
+  sortirane uzlazno.
 
