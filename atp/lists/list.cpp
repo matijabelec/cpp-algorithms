@@ -128,6 +128,41 @@ bool ispisi_listu() {
     return true;
 }
 
+bool trazi_element() {
+    if(lista == NULL)
+        return false;
+    
+    // unos podataka za pretrazivanje
+    int br;
+    cout << "broj za pretrazivanje: ";
+    cin >> br;
+    
+    // pretpostavka da trazenog elementa u listi nema
+    bool pronadjen = false;
+    
+    // prolazak kroz listu i u slucaju pronalaska elementa - ispis njegovih
+    // podataka (ispisuje se samo prvi pronadjeni trazeni element)
+    int brojac = 0;
+    for(elem* tekuci=lista->sljedeci; tekuci; tekuci=tekuci->sljedeci) {
+        
+        // provjera da li je pronadjen trazeni element
+        if(tekuci->broj == br) {
+            pronadjen = true;
+            cout << "element je pronadjen na indeksu: " << brojac << endl;
+            break;
+        }
+        
+        brojac++;
+    }
+    
+    // ako element nije pronadjen - ispisi poruku
+    if(pronadjen == false) {
+        cout << "- element nije pronadjen u listi - " << endl;
+    }
+    
+    return true;
+}
+
 int main() {
     for(char x;;) {
         cout << endl;
@@ -137,6 +172,7 @@ int main() {
         cout << "----------------------" << endl;
         cout << " [4] Dodaj u listu na kraj" << endl;
         cout << " [5] Dodaj u listu na pocetak" << endl;
+        cout << " [7] Pretrazi listu" << endl;
         cout << " [8] Ispisi listu" << endl;
         cout << "----------------------" << endl;
         cout << " [0] Izlaz" << endl;
@@ -174,6 +210,12 @@ int main() {
                 }
                 break;
             
+            case '7':
+                if(!trazi_element() ) {
+                    cout << "!! lista nije alocirana" << endl;
+                }
+                break;
+            
             case '8':
                 if(!ispisi_listu() ) {
                     cout << "!! lista nije alocirana" << endl;
@@ -181,5 +223,9 @@ int main() {
                 break;
         }
     }
+    
+    // pokusaj dealokacije liste
+    dealociraj_listu();
+    
     return 0;
 }
