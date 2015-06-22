@@ -68,4 +68,13 @@
   Izlaz: U polju dimenzije N sortirati brojeve algoritmom mjehuricastog 
   sortiranja.
 
+* Zadatak [15051816302](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15051816302.cpp)
+  
+  Opis zadatka:
+  Napravite program koji rješava sljedeći problem:
+  
+  Ulaz: Prirodni broj N i N riječi od kojih ni jedna ne prelazi 19 znakova.
+  Izlaz: U polju dimenzije N sortirati riječi algoritmom mjehuričastog 
+  sortiranja.
+
 
