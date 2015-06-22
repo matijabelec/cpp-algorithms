@@ -1,11 +1,13 @@
 # cpp-algorithms
 C++ algorithms developed by Matija Belec
 
-## list of algorithms:
-* [sort algorithms](https://github.com/matijabelec/cpp-algorithms/tree/master/sort)
-* search algorithms [not-available]
-* path-finding [not-available]
-* traveling salesman problem [not-available]
-* recursive algorithms [not-available]
-* matrix manipulation [not-available]
-* parallel (multithreaded) [not-available]
+## Popis algoritama:
+* [algoritmi sortiranja](https://github.com/matijabelec/cpp-algorithms/tree/master/sort)
+* [algoritmi pretraživanja](https://github.com/matijabelec/cpp-algorithms/tree/master/search)
+* [matrice](https://github.com/matijabelec/cpp-algorithms/tree/master/matrix)
+* rekurzivni algoritmi
+
+## Atp
+* [vezana lista](https://github.com/matijabelec/cpp-algorithms/tree/master/atp/lists)
+* [stog](https://github.com/matijabelec/cpp-algorithms/tree/master/atp/queue)
+
