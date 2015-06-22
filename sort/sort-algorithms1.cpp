@@ -20,7 +20,7 @@ void Izbornik();
 int main() {
 	Izbornik();
 	
-	system("pause");
+	int stop; cin>>stop;
 	return 0;
 }
 
