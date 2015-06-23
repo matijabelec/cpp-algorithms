@@ -186,6 +186,18 @@
   u stringu U i broj njegovih pojava. Velika i mala slova treba
   brojati zajedno.
 
+17. __Zadatak [15062300001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062300001.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni broj N. Unos treba ponavljati sve dok nije ispravan. N unosa
+  koji se sastoje od dva stringa i tri prirodna broja. Stringovi
+  predstavljaju imena i prezimena ljudi, a brojevi dan, mjesec i godinu
+  njihova rođenja.
+  
+  __Izlaz:__ Ispisati prezimena i imena ljudi od najmlađeg do najstarijeg.
+  Koristiti sortiranje spajanjem
 
 
 
