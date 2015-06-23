@@ -72,29 +72,33 @@ int usporedi(osoba& a, osoba& b) {
     return 1;
 }
 
-void QuickSort(osoba* polje, int i, int j) {
-    int poc=i, kraj=j;
-    int m = rand()%(j-i) + i;
-    osoba pivot = polje[m];
-    while(poc<kraj) {
-        while(usporedi(polje[poc], pivot) > 0)
-            poc++;
+void Spoji(osoba* p, int i, int k, int j) {
+    int poc1=i, poc2=k+1, c=0;
+    osoba *p2 = new osoba[j-i+1];
+    while(poc1<=k && poc2<=j)
+        if(usporedi(p[poc1], p[poc2]) != -1)
+            p2[c++]=p[poc1++];
+        else
+            p2[c++]=p[poc2++];
+    if(poc1>k)
+        while(poc2<=j) p2[c++] = p[poc2++];
+    else
+        while(poc1<=k) p2[c++] = p[poc1++];
 
-        while(usporedi(polje[kraj], pivot) < 0)
-            kraj--;
-
-        if(usporedi(polje[poc], polje[kraj]) != 0) {
-            osoba pom = polje[poc];
-            polje[poc] = polje[kraj];
-            polje[kraj] = pom;
-        } else if(poc!=kraj)
-            poc++;
-    }
-    if(i<poc-1) QuickSort(polje, i, poc-1);
-    if(j>poc+1) QuickSort(polje, poc+1, j);
+    for(int m=i; m<=j; m++)
+        p[m] = p2[m-i];
+    delete[] p2;
 }
-void QuickSort(osoba* polje, int n) {
-    QuickSort(polje, 0, n-1);
+void MerSort(osoba* polje, int i, int j) {
+    if(i<j) {
+        int k = (i+j) / 2;
+        MerSort(polje, i, k);
+        MerSort(polje, k+1, j);
+        Spoji(polje, i, k, j);
+    }
+}
+void MerSort(osoba* polje, int n) {
+    MerSort(polje, 0, n-1);
 }
 
 int main() {
@@ -112,7 +116,7 @@ int main() {
         cin >> polje[i].g;
     }
 
-    QuickSort(polje, n);
+    MerSort(polje, n);
 
     for(int i=0; i<n; i++)
         cout << polje[i].ime << " " << polje[i].prezime << endl;
