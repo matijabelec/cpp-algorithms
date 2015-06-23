@@ -153,3 +153,28 @@
   Ispisati prvo neparne brojeve sortirano silazno, a nakon toga parne 
   sortirane uzlazno.
 
+14. __Zadatak [15062300003](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062300003.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni brojevi, sve dok se ne unese 0. Duljinu niza nije moguce
+  unaprijed ograničiti.
+  
+  __Izlaz:__ U vezanu listu umetati brojeve tako da oni budu sortirani. Ispisati
+  sortirane brojeve
+    
+15. __Zadatak [15062300004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062300004.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni brojevi, sve dok se ne unese 0. Duljinu niza nije moguce
+  unaporijed ograničiti.
+  
+  __Izlaz:__ U vezanu listu umetati brojeve tako da oni budu sortirani silazno.
+  Ispisati brojeve sortirane silazno.
+
+
+
+
