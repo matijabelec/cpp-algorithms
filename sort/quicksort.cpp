@@ -29,12 +29,12 @@ void QuickSort(int polje[], int n) {
 int main() {
     int polje[]={12,53,35,36,3,2,5};
     int n = sizeof(polje)/sizeof(int);
-    
+
     QuickSort(polje, n);
-    
+
     for(int i=0; i<n; i++)
         cout << polje[i] << " ";
     cout << endl;
-    
+
     return 0;
 }
