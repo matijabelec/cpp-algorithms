@@ -163,7 +163,7 @@
   
   __Izlaz:__ U vezanu listu umetati brojeve tako da oni budu sortirani. Ispisati
   sortirane brojeve
-    
+  
 15. __Zadatak [15062300004](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062300004.cpp)__
   
   __Opis zadatka:__
@@ -174,6 +174,17 @@
   
   __Izlaz:__ U vezanu listu umetati brojeve tako da oni budu sortirani silazno.
   Ispisati brojeve sortirane silazno.
+
+16. __Zadatak [15062300002](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062300002.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program za sljedeći problem:
+  
+  __Ulaz:__ String U i cijeli broj I, 0<= i <= 25.
+  
+  __Izlaz:__ Ispisati koje je i-to najrijeđe slovo u datoteci s imenom zapisanim
+  u stringu U i broj njegovih pojava. Velika i mala slova treba
+  brojati zajedno.
 
 
 
