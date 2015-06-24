@@ -231,4 +231,19 @@
   pseudoslučajnih brojeva. Ispisati Najmanji broj u I-tom pretincu 
   tablice.
 
+21. __Zadatak [15062400031](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062400031.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni broj N
+  
+  __Izlaz:__ Napraviti rekurzivnu funkciju koja će računati N-ti Fibbonacijev 
+  broj po formuli.
+  
+  F_0 = F_1 = 1
+  
+  F_n = F_(n-1) + F_(n-2) za n > 1
+
+
 
