@@ -220,5 +220,15 @@
   pseudoslučajnih brojeva. Ispisati najveći broj u I-tom pretincu 
   tablice.
 
+20. __Zadatak [15062400022](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062400022.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni broj N, N cijelih brojeva i I, 0<=I<=49
+  
+  __Izlaz:__ Napraviti hash-tablicu s 50 pretinaca i u nju upisati N
+  pseudoslučajnih brojeva. Ispisati Najmanji broj u I-tom pretincu 
+  tablice.
 
 
