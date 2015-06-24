@@ -91,7 +91,7 @@ int main() {
         delete prn;
         prn = trn;
     }
-    for(elem* prn=parni, * trn=neparni; trn; ) {
+    for(elem* prn=parni, * trn=parni; trn; ) {
         trn = trn->sl;
         delete prn;
         prn = trn;
