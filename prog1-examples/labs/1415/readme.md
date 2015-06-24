@@ -199,5 +199,14 @@
   __Izlaz:__ Ispisati prezimena i imena ljudi od najmlađeg do najstarijeg.
   Koristiti sortiranje spajanjem
 
+18. __Zadatak [15062400001](https://github.com/matijabelec/cpp-algorithms/blob/master/prog1-examples/labs/1415/15062400001.cpp)__
+  
+  __Opis zadatka:__
+  Napravite program koji rješava sljedeći problem:
+  
+  __Ulaz:__ Prirodni brojevi N u I, 0<=I<=49
+  
+  __Izlaz:__ Napraviti hash-tablicu s 50 pretinaca i u nju upisati N
+  pseudoslučajnih brojeva. Ispisati sve brojeve iz I-tog pretinca
 
 
