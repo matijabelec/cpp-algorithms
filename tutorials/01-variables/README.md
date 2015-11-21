@@ -7,7 +7,7 @@ variable specifies variables size in memory.
 
 ## Variable types:
 type | size | description
---- | --- | ---
+--- | ---: | ---
 bool | 1B | boolean: true/false values (in fact 0 is false; any other value stored in is true)
 char | 1B | character: ASCII code of character
 int | 4B | used to store integers
