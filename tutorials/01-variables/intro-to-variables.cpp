@@ -16,10 +16,10 @@ int main() {
     int var;
     
     // user input (from standard console) we store into the variable
-    cin >> variable;
+    cin >> var;
     
     // now we outputs (to standard console) stored user input
-    cout << variable << endl;
+    cout << var << endl;
     
     return 0;
 }
