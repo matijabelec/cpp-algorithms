@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-bool BS(int* polje, int x, int i, int j) {
-    if(i>j) return false;
+int BS(int* polje, int x, int i, int j) {
+    if(i>j) return -1;
     int m = (j-i)/2 + i;
-    if(x == polje[m]) return true;
+    if(x == polje[m]) return m;
     if(x < polje[m]) return BS(polje, x, i, m-1);
     return BS(polje, x, m+1, j);
 }
-bool BinS(int* polje, int n, int x) {
+int BinS(int* polje, int n, int x) {
     return BS(polje, x, 0, n-1);
 }
 
@@ -19,10 +19,10 @@ int main() {
     int x;
     cin >> x;
 
-    bool ima = BinS(sortirano_polje, n, x);
+    int indeks = BinS(sortirano_polje, n, x);
 
-    if(ima)
-        cout << "broj postoji u polju" << endl;
+    if(indeks != -1)
+        cout << "broj postoji u polju na indeksu: " << indeks << endl;
     else
         cout << "broj ne postoji u polju" << endl;
 
