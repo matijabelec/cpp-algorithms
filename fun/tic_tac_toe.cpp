@@ -10,7 +10,7 @@ class game {
         
         bool check_end_condition() {
             bool end = 0;
-            for(int i=1; i<5; i++)
+            for(int i=2; i<5; i+=2)
                 if(m_table[4] && m_table[4]==m_table[4+i] && m_table[4]==m_table[4-i])
                     end=1;
             for(int i=0; i<3; i++)
@@ -74,11 +74,11 @@ int main() {
         }
         
         do {
-            std::cout << "move 0 1 2" << std::endl;
-            std::cout << "     3 4 5" << std::endl;
-            std::cout << "     6 7 8: ";
+            std::cout << "move 1 2 3" << std::endl;
+            std::cout << "     4 5 6" << std::endl;
+            std::cout << "     7 8 9: ";
             std::cin >> n;
-        } while(!theGame.play_move(n) );
+        } while(n<1 || n>9 || !theGame.play_move(n-1) );
     }
     
     std::cout << std::endl;
