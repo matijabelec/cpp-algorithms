@@ -62,7 +62,7 @@ class game {
 int main() {
     srand(time(0) );
     game theGame;
-    int n;
+    char n;
     
     while(theGame.is_running() ) {
         theGame.print();
@@ -76,11 +76,12 @@ int main() {
         do {
             std::cout << "move 1 2 3" << std::endl;
             std::cout << "     4 5 6" << std::endl;
-            std::cout << "     7 8 9: ";
+            std::cout << "     7 8 9" << std::endl;
+            std::cout << " or - to quit: ";
             std::cin >> n;
-        } while(n<1 || n>9 || !theGame.play_move(n-1) );
+            if(n == '-') return 0;
+        } while(n<'1' || n>'9' || !theGame.play_move(n-'1') );
     }
-    
     std::cout << std::endl;
     theGame.print();
     std::cout << std::endl;
