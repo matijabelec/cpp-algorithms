@@ -11,27 +11,21 @@
 #include <signal.h>
 using namespace std;
 
-int running;
-
 void say_hello() {
 	cout << "thread started" << endl;
 	
-	while(running) {
+	while(1) {
 		cout << "hello from thread" << endl;
 		sleep(1);
 	}
-	
-	cout << "thread stopped" << endl;
 }
 
 void sig_int_func(int) {
 	cout << "stopping thread..." << endl;
-	running = 0;
+    exit(0);
 }
 
 int main() {
-	running = 1;
-	
 	sigset(SIGINT, sig_int_func);
 	
 	thread thr(say_hello);
