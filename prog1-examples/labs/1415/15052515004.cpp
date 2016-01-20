@@ -52,13 +52,10 @@ void Sortiranje_zamjenom(int x) {
 
 int main() {
     int N;
-    do
-        cin >> N;
-    while(N<1 || N>19);
+    do cin >> N; while(N<1 || N>19);
     
     polje = new string[N];
-    for(int i=0; i<N; i++)
-        cin >> polje[i];
+    for(int i=0; i<N; i++) cin >> polje[i];
     
     for(int i=0; i<N; i++) {
         Sortiranje_zamjenom(i);
